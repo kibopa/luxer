@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head><title>Display Marks</title></head>
+<body>
+<form id="form1" method="POST" action="">
+First name: <input type="text" name="name" value="joseph"><br>
+Marks: <input type="text" name="number" value="34"><br>
+<input type="submit" value="submit">
+</form>
+<button onclick="my_function">Diplay</button>
+<p id="display1"></p>
+<script>
+function my_function(){
+var c=document.getElementById("form1");
+document.getElementById("display1").innerHTML=c;
+}
+</script>
+</body>
+</html>
